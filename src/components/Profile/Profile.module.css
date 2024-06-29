@@ -1,0 +1,66 @@
+.profile{
+margin-top: 24px;
+padding: 10px 10px;
+border: 4px solid black;
+border-radius: 10px;
+margin: 0 auto;
+width: 276px;
+}
+
+.description{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.avatar{
+height: 120px;
+background: gray;
+border-radius: 50%;
+margin: 0 auto;
+}
+
+.titleName{
+font-weight: 700;
+margin-bottom: 8px;
+margin-top: 8px;
+font-size: large;
+color: black;
+}
+
+.title{
+font-weight: 400px;
+color: gray;
+margin-top: 5px;
+margin-bottom: 2px;
+}
+
+.stats{
+display: flex;
+padding: 0;
+gap:  0;
+align-items: center;
+justify-content: center;
+}
+
+.statsItem{
+background-color: rgb(210, 210, 210);
+padding: 0;
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.statsTitle{
+text-align: center;
+font-weight: 500;
+width: 80px;
+color: black;
+}
+
+.statsTitleElement{
+font-weight: 700;
+color: black;
+}
